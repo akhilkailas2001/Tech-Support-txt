@@ -1,0 +1,13 @@
+Multi Partition problem in pendrive and sd card fix
+
+
+1. open command prompt as admiststrator
+2. type diskpart
+3. type list disk
+4. select the required disk by typing select disk disk_number eg select disk 1
+5. type detail disk to find we are selected the correct disk
+6. type clean
+7. type create partition primary
+8. type active
+9. type format fs=ntfs quick to format the disk
+10. done

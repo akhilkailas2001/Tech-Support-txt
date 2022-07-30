@@ -1,0 +1,50 @@
+How to Dual boot Windows and Ubuntu
+
+
+A. Reference Links
+
+1.https://ubuntu.com/
+2.https://rufus.ie/
+3.https://www.sdcard.org/
+4.https://easybcd.en.uptodown.com/windows
+
+B.Setup Ubuntu
+
+1. download Ubuntu desktop using https://ubuntu.com/
+2. download and install "rufus" using https://rufus.ie/ for writing iso to removable disk
+3. download sd memory card formatter for windows and install using https://www.sdcard.org/ for formating sd cards (optional)
+4. download easybcd for windows and install using https://easybcd.en.uptodown.com/windows it allows us to switch between windows and ubuntu
+5. open rufus and select iso file of ubuntu then click on start button and after complete close it (partition scheme is MBR and target is BIOS or UEFI)
+6. open create and format hard disk partitions by searching it in search bar of windows it will open disk management
+7. in the disk management find a localdisk other than windows file is installed and has sufficent space for ubuntu
+8. then right click the disk and select shrink volume
+9. give the amount of memory we allowed to ubuntu in the enter the amount of space for shrink in mb section then click shrink it will create an unallocated disk (eg if we want 100gb then type 102400mb)
+10. after connecting removable disk restart the computer
+11. before the system on continuously press boot key for entering into boot section(in most of the case boot key is f12)
+12. then select boot device (removable disk we connected)
+13. if screen for selecting ubuntu pop up select ubuntu
+14. then select the settings as we wanted
+15. in the update and other software section select normal install and install third party software for graphics and wifi hardware then click on next (configure secureboot is optional)
+16. in the installation type section select something else (it will open partition section)
+17. in that we use free space
+17.1 right click the free space then click on add
+17.2 set size of partition
+17.3 set type of the new partition to logical
+17.4 set location for new partition as beginning of this space
+17.5 set use us to ext4journaling file system and set mount point to "/" for set the disk as root
+17.6 set use us to swap area for remaining partion
+17.7 after completing the creation of partition
+17.8 select the root disk we created and put tick mark
+17.9 set device for boot loader installation as device name of root disk
+17.10 click on install now
+18. then follow steps
+
+C.Setup EasyBcd
+
+1. download and install easybcd
+2. open and click on add new entry
+3. select linux operating system
+4. set type to grub2
+5. give name of the operating system
+6. click on the plus button
+7. go to edit boot menu section click on save

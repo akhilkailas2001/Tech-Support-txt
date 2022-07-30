@@ -1,0 +1,10 @@
+Install jdk ubuntu
+
+
+1. open terminal
+2. type sudo apt update
+3. for install java jdk11 type "sudo apt install default-jdk" or "sudo apt install openjdk-11-jdk"
+4. for install java 8 jdk type "sudo apt install openjdk-8-jdk"
+5. for set default java version type "sudo update-alternatives --config java"
+6. for install jre type "sudo apt install default-jre" or "sudo apt install openjdk-11-jre"
+7. for check java version type "java --version"

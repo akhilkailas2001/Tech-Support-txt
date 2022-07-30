@@ -1,0 +1,16 @@
+Flashing Mobile phone using Sp flash tool Gionee marathon m5 lite flashing ( MT6735 )
+
+
+1. download firmware(Stockrom)
+2. install usb driver(all drivers)
+3. extract stockrom.zip
+4. open sp flash tool folder
+5. open flash tool
+6. then load scatter loading file (android scatter) from firmware folder
+7. set to firmware upgrade
+8. click on download
+9. then connect phone to pc
+10. then press volume down key and power button at same time
+11. in that time a colour shown on screen
+12. finally a green colour show when its done
+13. done

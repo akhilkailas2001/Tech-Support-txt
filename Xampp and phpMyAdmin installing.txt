@@ -1,0 +1,9 @@
+Xampp and phpMyAdmin installing
+
+
+1. run xampp-windows-x64-8.1.2-0-VS16-installer.exe
+2. go to location C:\
+3. create a folder name "localhost" in C:\
+4. download phpMyAdmin
+5. paste phpMyAdmin folder in localhost folder
+6. done

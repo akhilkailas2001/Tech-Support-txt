@@ -1,0 +1,9 @@
+Run php file using xampp
+
+
+1. goto location C:\xampp\htdocs
+2. paste the folder that contain php file for running
+3. open xampp-control.exe from C:\xampp
+4. start Apache and mysql then minimize it
+5. open browser and search "http://localhost/foldername_that_copy_in_htdocs"
+6. done

@@ -1,0 +1,8 @@
+Run Mysql using Xampp
+
+
+1. open xampp-control.exe from C:\xampp
+2. start Apache and mysql then minimize it
+3. goto location C:\xampp\mysql\bin then on the location bar clear the location and type cmd then press enter for opening cmd in C:\xampp\mysql\bin this location ( open command prompt in the location C:\xampp\mysql\bin )
+4. type "mysql -u root" or "mysql -u root -p" in commamd prompt
+5. done
