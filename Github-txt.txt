@@ -1,0 +1,18 @@
+git commands:
+
+git init	----for starting
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git add --all	----add into git
+git commit -m "add comments"	----add into master
+git remote add remotename repositorylink    ----for linking github with git
+git remote -v  ---find which remote we are using
+git push remotename master   -----to save project to github
+
+
+
+main commands for project gym management:
+
+git add --all
+git commit -m "comment"
+git push origin master 
